@@ -1,0 +1,20 @@
+{
+  "key": "DLSMC",
+  "code": "DLS",
+  "short": "DLSMC",
+  "hospital": "De Los Santos Medical Center",
+  "namespace": "Dlsmc",
+  "study": false,
+  "brand": "dlsmc",
+  "primary": "#164711",
+  "secondary": "#164711",
+  "accent": "#DCF6DF",
+  "paper": "#F5F7F5",
+  "wash": "#EDF6EC",
+  "line": "#C9D9C8",
+  "muted": "#5F6D63",
+  "ink": "#121212",
+  "header": "DE LOS SANTOS MEDICAL CENTER",
+  "platform": "DLSMC Pediatrics Exam Studio",
+  "zip": "20261007_DLS_PediatricsExamStudio_v2.0.zip"
+}
