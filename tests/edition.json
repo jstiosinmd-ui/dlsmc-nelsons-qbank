@@ -4,7 +4,7 @@
   "short": "DLSMC",
   "hospital": "De Los Santos Medical Center",
   "namespace": "Dlsmc",
-  "study": false,
+  "study": true,
   "brand": "dlsmc",
   "primary": "#164711",
   "secondary": "#164711",
@@ -16,5 +16,5 @@
   "ink": "#121212",
   "header": "DE LOS SANTOS MEDICAL CENTER",
   "platform": "DLSMC Pediatrics Exam Studio",
-  "zip": "20261007_DLS_PediatricsExamStudio_v2.0.zip"
+  "zip": "20261013_DLS_PediatricsExamStudio_v2.3.zip"
 }

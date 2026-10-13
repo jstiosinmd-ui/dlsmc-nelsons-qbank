@@ -1,64 +1,78 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "status": "complete",
-  "date": "2026-10-13",
-  "built": "2026-10-13T11:33:03.339618+00:00",
-  "imported": 1000,
-  "eligible": 1000,
-  "held": 0,
-  "revised": 53,
-  "unchanged_legacy_content": 947,
-  "difficulty_counts": {
-    "Easy": 121,
-    "Average": 870,
-    "Difficult": 9
-  },
+  "built": "2026-10-13T14:37:42.218246+00:00",
+  "based_on": "2.2",
+  "question_content_changed": false,
+  "nelson_questions": 6700,
+  "board_questions": 1000,
   "bank_hash": "56d30c443b196c2b1dfaa57f75d4c420bf4fbf739715606e6ed1d3ba40e81653",
-  "source_review_scope": 53,
-  "difficulty_is_editorial": true,
+  "nelson_practice_hash": "b871e29aef79951fe25215c808e10bb69fae143394f695b965c8960388737fe2",
   "validation_counts": {
-    "static": 80,
-    "browser": 225,
-    "pdf": 204,
-    "final": 17
+    "static_and_package": 102,
+    "browser": 380
   },
+  "browser_counts": {
+    "PGH": 80,
+    "StPauls": 80,
+    "CMC": 80,
+    "DLSMC": 79,
+    "navigation": 61
+  },
+  "revised_board_questions": 53,
+  "legacy_board_questions": 947,
   "edition": "DLSMC",
   "credit": "(c) jstiosin 2026",
   "author": "Jon Bryan S. Tiosin, MD",
-  "nelson_bank_unchanged": true,
-  "source_release_manifest": "20261013_PED_StudioManifest_v2.2.json",
-  "source_release_manifest_sha256": "925c8f50bd156dd732615c071a054331301de906130251f581d53e8202b3d3d4",
-  "validation_scope": "Counts are from the completed four-edition local release. Publishing verifies exact file and ZIP bytes, staged Git bytes, navigation, and creator credits.",
+  "source_release_manifest": "20261013_PED_StudioManifest_v2.3.json",
+  "source_release_manifest_sha256": "722670e8e27b13dc93926d52126e4f2a787702a56d2ceab1ccb3bee3a0a13f02",
+  "validation_scope": "Software, content preservation, and packaging. Counts cover all four local editions; no new clinical review or PDF audit.",
   "files": [
+    {
+      "path": "README.md",
+      "source_release_path": "DLSMC/README.md",
+      "size": 1767,
+      "sha256": "8ac7ad4d4eed743e18c223ad537d230407484e67e0f052cc91196f7531350fb6"
+    },
     {
       "path": "boards-mock.html",
       "source_release_path": "DLSMC/boards-mock.html",
-      "size": 3917024,
-      "sha256": "ec52565c8523507951877461540715695d854f370950347a7cd5d96c30fde9ea"
+      "size": 3917050,
+      "sha256": "6c3b58e8ef24b7771f1aaeaf953a2b49fac91f94c45c50e6dd7cf1059a77cad4"
     },
     {
       "path": "exam-maker.html",
       "source_release_path": "DLSMC/exam-maker.html",
-      "size": 15033627,
-      "sha256": "3f3ec6e2ea562ce934bfb9da1cd9b1dd6e68287bf856f55d239c19d3b740cd5c"
+      "size": 15032377,
+      "sha256": "435099668290024bbed0878dd62dabe0cb44a7683f77d04bf21cac7e15377521"
     },
     {
       "path": "index.html",
       "source_release_path": "DLSMC/index.html",
-      "size": 333017,
-      "sha256": "9b70f15e62ec023b1075a3c2c5e5cd3db18ba84994405e63d43d1e009dfca4d2"
+      "size": 332714,
+      "sha256": "db736d09bad9419338ccd8c90ed5c4d35eac5beac973c68053a95092f56c3658"
     },
     {
-      "path": "README.md",
-      "source_release_path": "DLSMC/README.md",
-      "size": 1367,
-      "sha256": "7e2b97bed91d0079fcbc54823be29bbc17182ce4519ae30733211be246d3502c"
+      "path": "question-bank.html",
+      "source_release_path": "DLSMC/question-bank.html",
+      "size": 13294287,
+      "sha256": "13cb8f66ea745e11f3ebb4dd7c18e4b6319cbfe7af9e1d869ea100547473abfb"
     },
     {
-      "path": "20261013_DLS_PediatricsExamStudio_v2.2.zip",
-      "source_release_path": "20261013_DLS_PediatricsExamStudio_v2.2.zip",
-      "size": 4452669,
-      "sha256": "3f6c390531f3000dcaa17d0c1938274e9432672b56f4b09e81e6ab5ce89d12b0"
+      "path": "20261013_DLS_PediatricsExamStudio_v2.3.zip",
+      "source_release_path": "20261013_DLS_PediatricsExamStudio_v2.3.zip",
+      "size": 7200699,
+      "sha256": "e05fb5f0a8324d64f9cb711f24299cc3502e632e8eed314283a7ac020dbd0ef6"
+    }
+  ],
+  "test_files": [
+    {
+      "path": "tests/edition.json",
+      "sha256": "63ce454076c1fccdab1672e030de1f03931e66f0a2f1d75c7d44be6ff801a997"
+    },
+    {
+      "path": "tests/practice.cjs",
+      "sha256": "a761fe23ecc99776c175745e75110919e6e570554814c87657e075efd6b3a9ad"
     }
   ]
 }
