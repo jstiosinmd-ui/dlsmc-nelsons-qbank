@@ -1,0 +1,64 @@
+{
+  "version": "2.2",
+  "status": "complete",
+  "date": "2026-10-13",
+  "built": "2026-10-13T11:33:03.339618+00:00",
+  "imported": 1000,
+  "eligible": 1000,
+  "held": 0,
+  "revised": 53,
+  "unchanged_legacy_content": 947,
+  "difficulty_counts": {
+    "Easy": 121,
+    "Average": 870,
+    "Difficult": 9
+  },
+  "bank_hash": "56d30c443b196c2b1dfaa57f75d4c420bf4fbf739715606e6ed1d3ba40e81653",
+  "source_review_scope": 53,
+  "difficulty_is_editorial": true,
+  "validation_counts": {
+    "static": 80,
+    "browser": 225,
+    "pdf": 204,
+    "final": 17
+  },
+  "edition": "DLSMC",
+  "credit": "(c) jstiosin 2026",
+  "author": "Jon Bryan S. Tiosin, MD",
+  "nelson_bank_unchanged": true,
+  "source_release_manifest": "20261013_PED_StudioManifest_v2.2.json",
+  "source_release_manifest_sha256": "925c8f50bd156dd732615c071a054331301de906130251f581d53e8202b3d3d4",
+  "validation_scope": "Counts are from the completed four-edition local release. Publishing verifies exact file and ZIP bytes, staged Git bytes, navigation, and creator credits.",
+  "files": [
+    {
+      "path": "boards-mock.html",
+      "source_release_path": "DLSMC/boards-mock.html",
+      "size": 3917024,
+      "sha256": "ec52565c8523507951877461540715695d854f370950347a7cd5d96c30fde9ea"
+    },
+    {
+      "path": "exam-maker.html",
+      "source_release_path": "DLSMC/exam-maker.html",
+      "size": 15033627,
+      "sha256": "3f3ec6e2ea562ce934bfb9da1cd9b1dd6e68287bf856f55d239c19d3b740cd5c"
+    },
+    {
+      "path": "index.html",
+      "source_release_path": "DLSMC/index.html",
+      "size": 333017,
+      "sha256": "9b70f15e62ec023b1075a3c2c5e5cd3db18ba84994405e63d43d1e009dfca4d2"
+    },
+    {
+      "path": "README.md",
+      "source_release_path": "DLSMC/README.md",
+      "size": 1367,
+      "sha256": "7e2b97bed91d0079fcbc54823be29bbc17182ce4519ae30733211be246d3502c"
+    },
+    {
+      "path": "20261013_DLS_PediatricsExamStudio_v2.2.zip",
+      "source_release_path": "20261013_DLS_PediatricsExamStudio_v2.2.zip",
+      "size": 4452669,
+      "sha256": "3f6c390531f3000dcaa17d0c1938274e9432672b56f4b09e81e6ab5ce89d12b0"
+    }
+  ]
+}
